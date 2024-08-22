@@ -1,0 +1,29 @@
+.header
+{
+    background-color: aqua;
+}
+
+.content
+{
+    background-color: teal;
+}
+
+.information
+{
+    background-color: blueviolet;
+}
+
+.quote-container
+{
+    background-color: chartreuse;
+}
+
+.signup-container
+{
+    background-color: brown;
+}
+
+.footer
+{
+    background-color: blanchedalmond;
+}
