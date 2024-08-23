@@ -1,16 +1,117 @@
+body
+{
+    background-color: #1f2937;;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    height: 120vh;
+    flex: 1 0 0;
+    font-family:'Roboto', Arial, sans-serif;
+}
+
 .header
 {
-    background-color: aqua;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.logo
+{
+    color:#e5e7eb;
+    font-size: 24px;
+}
+
+.links
+{
+    display: flex;
+    gap: 16px;
+}
+
+a
+{
+    text-decoration: none; 
+    color:#e5e7eb;
 }
 
 .content
 {
-    background-color: teal;
+    background-color: #1f2937;
+    margin: 0px;
+    height: 300px;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    justify-content: center;
+    align-items: center;
+    flex: 0;
+    gap: 75px;
 }
 
-.information
+
+.content-info-container
+{
+    background-color: #1f2937;
+    /*background-color: red;*/
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.title
+{
+    color:#f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    flex: 1 1 auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.title-description
+{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    margin: 0px;
+    flex: 1 1 auto;
+}
+
+.signup-button
+{
+    background-color: blue;
+    border-color: blue;
+    flex: 0 1 0;
+}
+
+img
+{
+    max-width: 400px;
+    width: auto;
+    height: 200px;
+    flex: 1;
+}
+
+.random-information-container
 {
     background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+}
+
+.cards-container
+{
+    display: flex;
 }
 
 .quote-container
@@ -18,12 +119,18 @@
     background-color: chartreuse;
 }
 
-.signup-container
+.large-signup-container
 {
     background-color: brown;
 }
 
-.footer
+.footer-container
 {
-    background-color: blanchedalmond;
+    color: blanchedalmond;
+    background-color: #1f2937;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
 }
