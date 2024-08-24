@@ -5,8 +5,8 @@ body
     flex-direction: column;
     margin: 0px;
     padding: 0px;
-    height: 120vh;
-    flex: 1 0 0;
+    height: 130vh;
+    flex: 1 0 auto;
     font-family:'Roboto', Arial, sans-serif;
 }
 
@@ -50,7 +50,7 @@ a
     padding-bottom: 32px;
     justify-content: center;
     align-items: center;
-    flex: 0;
+    flex: 0 0 auto;
     gap: 75px;
 }
 
@@ -64,6 +64,7 @@ a
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    flex: 0 0 auto;
 }
 
 .title
@@ -89,9 +90,15 @@ a
 
 .signup-button
 {
-    background-color: blue;
-    border-color: blue;
-    flex: 0 1 0;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 5px;
+    flex: 0 1 auto;
+    color: white;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
 img
@@ -104,24 +111,137 @@ img
 
 .random-information-container
 {
-    background-color: blueviolet;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    flex: 1 0 auto;
+    gap: 16px;
+}
+
+.random-info
+{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-bottom: 24px;
 }
 
 .cards-container
 {
     display: flex;
+    gap: 100px;
+}
+
+.card
+{
+    border: 3px solid #73AD21;
+    border-radius: 5px;
+    border-color: aqua;
+    width: 140px;
+    height: 140px;
+}
+
+.card-info-container
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 74px;
+}
+
+.card-info
+{
+    font-size: 18px;
+    text-wrap: wrap;
+    width: 170px;
+    color: #1f2937;
 }
 
 .quote-container
 {
-    background-color: chartreuse;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding-bottom: 64px;
+    padding-top: 64px;
 }
 
-.large-signup-container
+.quote p
 {
-    background-color: brown;
+    margin: 0px;
+    padding: 0px;
+    color: #1f2937;
+    font-style: oblique;
+}
+
+.quote
+{
+    font-size: 36px;
+    text-wrap: wrap;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-attribution
+{
+    font-size: 27px;
+    font-weight: bold;
+    margin-left: auto;
+    color:black;
+}
+
+.signup-area-container
+{
+    background-color: rgb(255, 255, 255);
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.signup-area
+{
+    background-color: #3882f6;
+    border: 1px;
+    border-radius: 4px;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    height: 140px;
+    width: 750px;
+    color: white;
+}
+
+.signup-info
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.action-text
+{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.signup-prompt
+{
+    background-color: #3882f6;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    padding: 8px 32px 8px 32px;
 }
 
 .footer-container
@@ -133,4 +253,6 @@ img
     justify-content: center;
     align-items: center;
     height: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
